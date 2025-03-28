@@ -12,10 +12,10 @@ function App() {
   return(
     <div>
       <h1>Calculator</h1>
-      <button onClick={() => getNumber("p")}>Prime Numbers</button>
-      <button onClick={()=> getNumber("f")}>Fibonacci Numbers</button>
-      <button onClick={()=> getNumber("e")}>Even Numbers</button>
-      <button onClick={()=> getNumber("r")}>Random Numbers</button>
+      <button onClick={() => getNumber("p")}>Prime</button>
+      <button onClick={()=> getNumber("f")}>Fibonacci</button>
+      <button onClick={()=> getNumber("e")}>Even</button>
+      <button onClick={()=> getNumber("r")}>Random</button>
       {numbers &&(
         <div>
           <h2> Numbers: {numbers.number?.join(", ")}</h2>
